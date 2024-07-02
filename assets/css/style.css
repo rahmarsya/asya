@@ -1,0 +1,45 @@
+
+    .list-group-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .list-group-item .action-links a {
+        margin-left: 0.5rem;
+        text-decoration: none;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .list-group-item .action-links a:hover {
+        background-color: #f0f0f0;
+    }
+
+    .list-group-item .hapus-link {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .list-group-item .hapus-link:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+    }
+
+    .list-group-item .detail-link {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .list-group-item .detail-link:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+
